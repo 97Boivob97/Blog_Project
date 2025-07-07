@@ -1,0 +1,18 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+header{
+    background-color: #212529;
+}
+.hero{
+    height : 80vh;
+    background: linear-gradient(rgba(100,100,50,0.5),rgba(50,0,0,0.5)),
+    url("interior.jpg") no-repeat center center/cover ;
+}
+.my-link:hover{
+    color: blue !important ; 
+    text-decoration: underline;
+    font-size : 1.2rem;
+}
